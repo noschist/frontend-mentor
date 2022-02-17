@@ -1,0 +1,55 @@
+@import "base/globals";
+
+body {
+    background-color: $clr-light-gray;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.9375rem;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 20rem;
+    height: 31.25rem;
+    background-color: $clr-white;
+    border-radius: 20px;
+    padding: 16px;
+
+    &_qr {
+        margin-inline: auto;
+        width: 18rem;
+        height: 18rem;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    &_text {
+        margin-top: 30px;
+        width: 250px;
+        height: 120px;
+        margin-inline: auto;
+
+        h2 {
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+            color: $clr-dark-blue;
+        }
+
+        p {
+            color: $clr-gray-blue;
+        }
+    }
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
