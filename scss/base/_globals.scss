@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+$clr-white: hsl(0, 0%, 100%);
+$clr-light-gray: hsl(212, 45%, 89%);
+$clr-gray-blue: hsl(220, 15%, 55%);
+$clr-dark-blue: hsl(218, 44%, 22%);
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
